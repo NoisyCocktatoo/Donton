@@ -1,0 +1,11 @@
+﻿        private readonly IHttpContextAccessor _httpContextAccessor;
+
+public {{class}}()
+        {
+        }
+
+        public {{class}}(DbContextOptions<{{class}}>
+    options,IHttpContextAccessor httpContextAccessor) : base(options)
+    {
+    _httpContextAccessor = httpContextAccessor;
+    }

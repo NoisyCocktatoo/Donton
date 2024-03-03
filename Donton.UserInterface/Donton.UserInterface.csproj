@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Scrutor" Version="4.2.2" />
+    <PackageReference Include="Serilog.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="UAParser" Version="3.1.47" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Donton.BusinessLogic\Donton.BusinessLogic.csproj" />
     <ProjectReference Include="..\Donton.Common\Donton.Common.csproj" />
     <ProjectReference Include="..\Donton.DataAccess\Donton.DataAccess.csproj" />
   </ItemGroup>
